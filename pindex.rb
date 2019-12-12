@@ -27,7 +27,7 @@ xml = File.read(xmlFile)
   doc.elements.each('posts/post') do |p|
     posts << p.attributes
    
-   x = "pb-"+p.attributes["description"].gsub(/[\x00-\x20\x7e-\xff\s\W]/,"_")
+   x = "pb-"+p.attributes["description"].gsub(/[^0-9a-z]/imu,"_")
    x = x[0,100]
    
    fn = bookmarksDir + x +".url"
