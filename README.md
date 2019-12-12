@@ -13,11 +13,11 @@ It uses the first 100 characters of the description as the filename, and it will
 
 I put the baseDir in my dropbox, so that my bookmarks will be automatically backed up.
 
+Note the the basedir should have directories pinboard and pinboard/bookmarks already created.
+
 ### Sample crontab entry ###
 	#min	hour	mday	month	wday	command
 	15	20	*	*	*	/usr/bin/ruby /Users/foo/pindex/pindex.rb user pass /Users/foo/
 
 
 ## License  ##
-
-[MIT License](http://kylemiller.com/mit-license)
