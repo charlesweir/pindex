@@ -1,7 +1,7 @@
 #pindex#
 ========
 
-#### pinboard.in OS X spotlight indexer ####
+#### pinboard.in Mac OSX spotlight indexer ####
 
 **Updated 2019 by Charles Weir to support latest Pinboard format and to run as script**
 
