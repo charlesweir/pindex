@@ -3,7 +3,7 @@
 
 #### pinboard.in OS X spotlight indexer ####
 
-**Updated 2019 by Charles Weir to support latest Pinboard format**
+**Updated 2019 by Charles Weir to support latest Pinboard format and to run as script**
 
 This requires an account with the excellent bookmarking service http://pinboard.in and OS X.
 
